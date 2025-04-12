@@ -20,14 +20,14 @@ body {
   
   /* Login box */
   .login-container {
-    width: 480px;
+    width: 490px;
     padding: 35px;
-    background: rgba(255, 255, 255, 0.9); /* Solid white with slight transparency */
+    background: rgba(255, 255, 255, 0.9); 
     border-radius: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400; /* Optional: change font weight */
+    font-weight: 400; 
     border: 1px solid #ccc;
     margin: 0 auto;
     background: #f0f4f8;

@@ -9,7 +9,7 @@ function Header() {
           <img src={logo} alt="Tabibi Logo" className="logo" />
         </div>
         <nav className="header-center">
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
             <Link to="#">All Doctors</Link>
             <Link to="#">About</Link>
             <Link to="#">Contact</Link>

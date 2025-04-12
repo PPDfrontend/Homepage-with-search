@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.hero-container {
+  display: flex;
+  background-color: #00A3A3;
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+  margin: 0 auto;
+  height: 533px;
+  width: 1320px;
+  position: relative;
+  top: 27px;
+}
+
+.hero-content {
+  padding: 50px;
+  width: 60%;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.avatar-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: -10px;
+  object-fit: cover;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  max-width: 90%;
+}
+
+.book-button {
+  background-color: white;
+  color: #5b6867;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.book-button:hover {
+  background-color: #f2f2f2;
+}
+
+.arrow {
+  font-size: 16px;
+}
+
+.hero-image {
+  width: 34%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.hero-image img {
+  height: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  
+  .hero-content {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.book-button {
+  position: relative;
+  top: 100px;
+  left: 60px;
+}
+.hero-text {
+  position: relative;
+  top:102px;
+  left: 205px;
+}
+.title{
+  position: relative;
+  top: 50px;
+  left: 60px;
+  font-size: 40px;
+
+}
+
+.group-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-start;
+  position: relative;
+  right: 1080px;
+  top: 32px;
+}
