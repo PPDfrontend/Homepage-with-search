@@ -176,6 +176,23 @@ function All() {
           <button className="search-button">Search</button>
         </div>
       </div>
+      <div className="featured-doctors-section">
+        <h2>Suggested Doctors</h2>
+        <p className='paragraph'>Simply browse through our extensive list of trusted doctors.</p>
+        <div className="doctors-grid">
+          {[1, 2, 3, 4, 5, 6].map((item) => (
+            <div key={item} className="doctor-card">
+              <div className="doctor-img-placeholder"></div>
+              <h3>Dr. Example Name</h3>
+              <p>Specialty: {item % 2 === 0 ? "Cardiologist" : "Dermatologist"}</p>
+              <p>Location: {item % 3 === 0 ? "Alger" : "Constantine"}</p>
+              <button className="book-doctor-btn">Book Appointment</button>
+            </div>
+          ))}
+        </div>
+      </div>
+
+
     </>
   );
 }
