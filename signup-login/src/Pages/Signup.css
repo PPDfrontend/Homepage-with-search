@@ -163,3 +163,11 @@ body {
   position: relative;
   left: 19px;
 }
+.male {
+  position: relative;
+  right: 70px;
+}
+.female {
+  position: relative;
+  right: 70px;
+}

@@ -81,7 +81,7 @@ function Signup() {
                   name="gender"
                   value="Male"
                 />
-                <label htmlFor="male">Male</label>
+                <label htmlFor="male" className='male'>Male</label>
 
                 <input
                   type="radio"
@@ -89,7 +89,7 @@ function Signup() {
                   name="gender"
                   value="Female"
                 />
-                <label htmlFor="female">Female</label>
+                <label htmlFor="female" className='female'>Female</label>
                 </div>
               </div>
             </div>
